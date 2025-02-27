@@ -25,6 +25,40 @@ function outputResult(result, text){
   console.log(text);
 }
 
+function compute(type){
+  let calText;
+  let result = 0;
+  const operand1 = parseFloat(currentResult)
+  const operand2 = getUserInput();
+  switch(type){
+  case 'add':
+    Result = operand1 + operand2;
+    calText = `${operand1} + ${operand2} = ${currentResult}`;
+    break;
+  case 'divide':
+      if (operand2 === 0)
+    alert('cannot divide by 0')
+      else {
+    Result = (operand1 / operand2).toFixed(2);
+    calText = `${operand1} / ${operand2} = ${currentResult}`;
+  }
+    break;
+  case 'subtract':
+    Result = operand1 - operand2;
+    calText = `${operand1} - ${operand2} = ${currentResult}`;
+    break;
+  case 'multiply':
+     Result = operand1 * operand2;
+     calText = `${operand1} * ${operand2} = ${currentResult}`;
+    break;
+  }
+  outputResult(currentResult.toFixed(2))
+}
+addBtn.addEventListener('click', () => compute ('add'));
+subtractBtn.addEventListener('click', () => compute (subtract));
+multiplyBtn.addEventListener('click', () => compute (multiply));
+divideBtn.addEventListener('click', () => compute (divide));
+
 function add(){
   const operand1 = parseFloat(currentResult);
   const operand2 = getUserInput();
