@@ -33,3 +33,19 @@ function showMid(item) {
       break;
   }
 }
+function showQuiz1(item) {
+  switch (item) {
+    case 'p1_36':
+      p.innerHTML = `<iframe src='./exams/quiz1_36/p1_xx/src/p1_xx.html' width='100%' height='100%' />`;
+      break;
+    case 'p2_36':
+      p.innerHTML = `<iframe src='./exams/quiz1_36/p2_xx/src/p2_xx.html' width='100%' height='100%' />`;
+      break;
+    case 'p3_36':
+      p.innerHTML = `<iframe src='./exams/quiz1_36/p3_xx/p3_xx.html' width="100%" height="100%" />`;
+      break;
+    case 'p4_36':
+      p.innerHTML = `<iframe src='./exams/quiz1_36/p4_xx/p4_xx.html' width="100%" height="100%" />`;
+      break;
+  }
+}
