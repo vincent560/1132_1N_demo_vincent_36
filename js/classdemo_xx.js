@@ -20,3 +20,16 @@ function showClassDemo(item) {
       break;
   }
 }
+function showMid(item) {
+  switch (item) {
+    case 'm1_xx':
+      p.innerHTML = `<iframe src='./exams/mid1_36/m1_xx/src/p1_36.html' width='100%' height='100%' />`;
+      break;
+    case 'm2_xx':
+      p.innerHTML = `<iframe src='./exams/mid1_36/m2_xx/p2_36.html' width='100%' height='100%' />`;
+      break;
+    case 'm3_xx':
+      p.innerHTML = `<iframe src='./exams/mid1_36/m3_xx/p3_xx.html' width="100%" height="100%" />`;
+      break;
+  }
+}
