@@ -3,3 +3,17 @@ git config --global user.name "vincent560"
 git log --pretty=format:"%h%x09%an%x09%ad%x09%s" --after="2024-09-18"
 
 npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+
+supabase
+vincent_1n_36:
+%)jX66s9*++?7ci
+
+vincent_2n_36:
+j4NvLXXIoO2yYX9S
+
+project URL:
+https://orriljixluqnonqtcfyp.supabase.co
+
+Supabase anon key:
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ycmlsaml4bHVxbm9ucXRjZnlwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU0OTA1NTEsImV4cCI6MjA2MTA2NjU1MX0.IHDW-fa1Qg-csc9hE0LWuu-dxicpIXxLqVdvqbEG_H0
