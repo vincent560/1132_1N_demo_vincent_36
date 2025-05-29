@@ -1,4 +1,5 @@
 import express from 'express'
+import apiProductRouter from './routes/api/apiProductRouter_36.js'
 
 const app_36 = express()
 
@@ -12,6 +13,8 @@ app_36.use('/product_36/static', (req, res, next) => {
     id:'213410136'
   })
 })
+
+app_36.use('/api/product_36', apiProductRouter)
 
 app_36.use('/', (req, res, next) =>{
   res.render('index', {
