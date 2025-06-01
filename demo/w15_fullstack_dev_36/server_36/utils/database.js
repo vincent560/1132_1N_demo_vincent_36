@@ -24,6 +24,6 @@ if (process.env.DATABASE === 'LOCAL') {
   });
 }
 
-console.log('connect database', pool.options);
+// console.log('connect database', pool.options);
 
 export default pool;
